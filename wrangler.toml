@@ -1,0 +1,5 @@
+# Tells Cloudflare how to deploy this repo.
+name = "cloud-browser"          # MUST match your Worker's name in the Cloudflare dashboard exactly
+main = "worker.js"
+compatibility_date = "2025-06-01"
+keep_vars = true                # keep variables you set in the dashboard (e.g. HB_SLEEP_SECS) when deploying
